@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Gugi&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Gugi&family=Matemasie&family=Shadows+Into+Light&display=swap');
+
+#box {
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+
+#box {
+    max-width: 432px;
+    max-height: 430px;
+}
+
+#image {
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+
+#box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: gugi;
+}
+
+p {
+    font-family:"shadows-into-light", ;
+
+}
