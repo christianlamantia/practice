@@ -1,0 +1,57 @@
+/* 02-layout-b.css */
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas: 
+    "masthead masthead masthead"
+    "navigation welcome welcome"
+    "navigation cats coming-soon"
+    ". footer .";
+
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+#cats {
+  grid-column: 2/3;
+}
+
+section {
+  background-color: #ddd;
+}
+
+  header{
+    grid-area: masthead;
+  }
+  
+  nav {
+    grid-area: navigation;
+    display: grid;
+  }
+  
+  main{
+  grid-area: welcome;
+  }
+  
+footer{
+grid-area: copyright;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
+}

@@ -1,0 +1,48 @@
+/* 03-simple-layout.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇           */
+/* **************************************** */
+
+ body{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "masthead masthead"
+  "navigation welcome"
+  "copyright copyright";
+}
+
+header{
+  grid-area: masthead;
+}
+
+nav {
+  grid-area: navigation;
+  display: grid;
+}
+
+main{
+grid-area: welcome;
+}
+
+footer{
+  grid-area: copyright;
+}

@@ -1,0 +1,20 @@
+/* 01-two-columns.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇           */
+/* **************************************** */
